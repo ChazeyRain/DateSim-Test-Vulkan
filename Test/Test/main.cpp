@@ -1,10 +1,10 @@
-#include "App.h"
+#include "WindowCreator.h"
 
 #include <iostream>
 
 int main() {
    
-    App test;
+    WindowCreator test;
 
     try {
         test.run();

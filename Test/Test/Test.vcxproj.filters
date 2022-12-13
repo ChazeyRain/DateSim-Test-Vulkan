@@ -13,18 +13,36 @@
       <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
       <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
     </Filter>
+    <Filter Include="Source Files\API">
+      <UniqueIdentifier>{2057ff6e-824b-4c9a-a180-87f32bce8a1a}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\API">
+      <UniqueIdentifier>{dfdb26a9-55ab-4b50-8244-bd3bdf8ea9e0}</UniqueIdentifier>
+    </Filter>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="main.cpp">
       <Filter>Source Files</Filter>
     </ClCompile>
-    <ClCompile Include="App.cpp">
-      <Filter>Source Files</Filter>
+    <ClCompile Include="WindowCreator.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanCreator.cpp">
+      <Filter>Source Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanDevicePicker.h">
+      <Filter>Header Files\API</Filter>
+    </ClCompile>
+    <ClCompile Include="VulkanDevicePicker.cpp">
+      <Filter>Source Files\API</Filter>
     </ClCompile>
   </ItemGroup>
   <ItemGroup>
-    <ClInclude Include="App.h">
-      <Filter>Header Files</Filter>
+    <ClInclude Include="WindowCreator.h">
+      <Filter>Header Files\API</Filter>
+    </ClInclude>
+    <ClInclude Include="VulkanCreator.h">
+      <Filter>Header Files\API</Filter>
     </ClInclude>
   </ItemGroup>
 </Project>
