@@ -1,0 +1,4 @@
+#Ignore compiled data
+/Test/.vs/
+/Test/x64/
+/Test/Test/x64/
